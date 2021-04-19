@@ -1,8 +1,3 @@
-<template>
- 
-  <router-view/>
-</template>
-
 <style lang="scss">
 	body {
 		background-color: #222b31;
