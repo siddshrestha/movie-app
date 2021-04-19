@@ -1,18 +1,32 @@
 <template>
   <div class="home">
     <navbar></navbar>
+
+    <div id="main-section">
+      <sidebar></sidebar>
+      <movie-list></movie-list>
+     
+
+    </div>
    
   </div>
 </template>
 
 <script>
 import Navbar from '../components/Navbar'
+import Sidebar from '../components/Sidebar'
+import MovieList from '../components/MovieList'
+
+
 
 
 export default {
   name: 'Home',
   components: {
-    Navbar
+    Navbar,
+    Sidebar,
+    MovieList
+    
     
   }
 }
