@@ -1,6 +1,6 @@
 <template>
   <div id="movie-container">
-
+      movie list
   </div>
 </template>
 
